@@ -8,7 +8,7 @@ objectParentID=$(echo $1) # The ID of the given parent object, which subobjects 
 serverURL="https://saas.saymon.info" # SAYMON server URL
 userAuthToken=87cdda06-a951-42d6-b651-db51fb870674 # user auth token to use in REST-API methods - use read-only user for the security reasons
 # To get user auth token:
-# login to SAYMON webiu
+# login to SAYMON webui
 # open "Configuration" window
 # create new user
 # on "Permissions" tab choose "Deny all" option
